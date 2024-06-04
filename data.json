@@ -1,0 +1,45 @@
+{
+    "user" : {
+        "fullName": "Tieho Mabula",
+        "photo" : "./Tieho tablemount.png"
+    },
+    "city" : {
+        "name" : "Paris",
+        "photo" : "./Seine-River-At-Night.jpg",
+        "description" : "I'd love to visit Paris, the stunning capital of France." 
+    },
+
+    "foreignLanguage" : {
+        "language1": "English",
+        "language2" : "French",
+        "description":"Based on my favourite city, I think it's no surprise that I'd love to learn French. It's such an elegant and soothing language!",
+        "photo":"./kiss print beige.png"
+    },
+    
+        "phrases" : {
+            "englishPhrase1" : "You're gorgeous",
+            "foreignPhrase1" : "Vous etes magnifique",
+             "englishPhrase2" : "I love croissants!",
+            "foreignPhrase2" : "j'adore les croissants"
+        },
+    
+
+    "favouriteSubjects" : [
+        {
+            "name" : "Economics",
+            "description" : "The study of how to use limited resources to meet unlimited needs.",
+            "photo":"./eco img.jpg"
+        },
+        {
+            "name" : "Philosophy",
+            "description" : "The study of the fundamental nature of knowledge, reality and existence.",
+            "photo":"./phil img.jpg",
+            "position": "right"
+        },
+        {
+            "name" : "Religion",
+            "description" : "The scientific study of religion.",
+            "photo": "./religion img.png"      
+         }
+    ]
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="css/materialize.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <style>
+        @media(max-width:960px) {
+            .mid-text {
+                float: right !important;
+            }
+        }
+    </style>
+</head>
+
+<div class="container">
+
+    <body class="card-panel pink lighten-4">
+
+        <div class="card-panel">
+            <span class="grey-text text-darken-2">
+                <h1 class="center-align" class="card-image hoverable">{{user.fullName}}
+        </div>
+        </h1>
+        <div class="row">
+            <img src="{{user.photo1}}" width="300px" class="responsive-img" alt="" srcset="" class="col s4">
+
+
+
+            <!--div class="col s12">This div is 12-columns wide on all screen sizes</div>
+                <div class="col s6"-->
+            <div class="row">
+                <span class="grey-text text-darken-2">
+                    <h2>Which City? </h2>
+                    <h3>{{city.name}}</h3>
+                    <img src="{{city.photo}}" width="300px" class="responsive-img" alt="" srcset="" class="col s6">
+                    <h6 class="col s6">{{city.description}}</h6>
+                </span>
+            </div>
+        </div>
+
+
+
+        <div class="col s6">
+            <span class="grey-text text-darken-2">
+                <div class="row">
+                    <h2>Foreign Language <img src="{{foreignLanguage.photo}}" class="responsive-img" class="col s4"
+                            width="200px"></h2>
+                    <h6>{{foreignLanguage.description}}</h6>
+                    <table class="responsive-table">
+                        <thead>
+                            <tr>
+                                <th>{{foreignLanguage.language1}}</th>
+                                <th>{{foreignLanguage.language2}}</th>
+
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>{{phrases.englishPhrase1}}</td>
+                                <td>{{phrases.foreignPhrase1}}</td>
+
+                            </tr>
+                            <tr>
+                                <td>{{phrases.englishPhrase2}}</td>
+                                <td>{{phrases.foreignPhrase2}}</td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+        </div>
+
+
+
+
+
+        <hr>
+
+        <div class="row">
+            <h2>My Favourite Subjects</h2>
+            {{#each favouriteSubjects }}
+            <div class="col l12 s12">
+                <hr>
+                <div class="col s6 l6 {{this.position}}">
+                    <img src="{{this.photo}}" class="responsive-img">
+                </div>
+                <div class="col s6 l6 ">
+                    <h3 style="font-size: medium;"><b>{{this.name}}</b></h3>
+                    <p class="col s12">{{this.description}}</p>
+                </div>
+            </div>
+            {{/each}}
+
+
+
+        </div>
+
+
+
+
+
+
+    </body>

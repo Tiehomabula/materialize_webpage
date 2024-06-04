@@ -1,0 +1,165 @@
+body{
+    background-image: url(beige\ background.jpg);
+    font-family:'Times New Roman', Times, serif;
+
+}
+ img{
+    width: 150px;
+    height: 150px;
+} 
+
+
+
+
+.heading{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+}
+/*p,h3,img {
+    padding-left: auto;
+
+}*/
+
+
+
+/*.p_city{
+    margin-left:20px;
+    display:inline-block;
+     float:left;
+    width: 100%;
+    font-size: large;
+    font-style: italic;
+    font-weight: 500;
+}*/.p_city {
+    width: 50%;
+    font-size: large;
+    font-style: italic;
+    font-weight: 500;
+    height: auto;
+    padding-top: 2em;
+    margin-left:20px;
+    display:inline-block;
+}
+
+
+.p_language{
+    font-size:large;
+    font-style: italic;
+    font-weight: 500;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+th,td {
+    border:1px solid black;
+}
+
+    
+        .subj_eco{
+            margin-left: 5px;
+        }
+        .subj_phil{
+            margin-left:10px;
+            
+        }
+        .tieho{
+            display: flex;
+        }
+
+        .subj_rel{
+            margin-left: 10px;
+            
+            
+        }
+        
+        .p_subj_language{
+            width: 20%;
+            font-style: italic;
+            font-weight: 500;
+            text-align: left;
+            margin-left: 100px; 
+            margin-right: 80px; /*creates space between img and text*/
+           }
+
+           .image-container{
+            display:flex;
+            margin-left:100px;
+            float:right;
+            text-align:left;
+           }
+            
+@media(max-width: 600px){
+    /* .subj_eco .flex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    } */
+
+    /*.image-container{
+        display:flex;
+        margin-left:100px;
+        float:right;
+        text-align:left;
+    } */
+    .media-text{
+        order:0;
+    }
+
+    .p_city{
+       
+            width: 50%;
+            font-size: large;
+            font-style: italic;
+            font-weight: 500;
+            height: auto;
+            padding-top: 2em;
+            margin-left:20px;
+            display:inline-block;
+        }
+        
+    }
+
+    
+@media(min-width:960px){
+    body{
+        display:block;
+    }
+
+    .subjects{
+      margin-top:30px;
+        width:60%;
+        margin-right: right;
+    }
+
+        .flex_container {
+            display:flex;
+            margin-left:2px;
+            
+        }
+        
+        /*.p_city{
+            margin-left:20px;
+            display:inline-block;
+             float:left;
+            width: 100%;
+            font-size: large;
+            font-style: italic;
+            font-weight: 500;*/
+        }
+    
+
+   
+        
+        
+    
+            
+           
+
