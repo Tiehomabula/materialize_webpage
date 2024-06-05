@@ -1,18 +1,20 @@
 {
     "user" : {
-        "fullName": "Tieho Mabula",
-        "photo" : "./Tieho tablemount.png"
+        "fullName": "Tieho N. Mabula",
+        "photo1": "./Tieho God's window.jpg",
+        "photo2":"./pink bow.jpg",
+        "quote":"She remembered who she was and the game changed. - Lalah Delia"
     },
     "city" : {
-        "name" : "Paris",
+        "name" : "P A R I S",
         "photo" : "./Seine-River-At-Night.jpg",
-        "description" : "I'd love to visit Paris, the stunning capital of France." 
+        "description" : "I'd love to visit Paris, the stunning capital of France. I think the city is absolutely stunning and is the perfect location for a romantic getaway. I'm all here for it!" 
     },
 
     "foreignLanguage" : {
         "language1": "English",
         "language2" : "French",
-        "description":"Based on my favourite city, I think it's no surprise that I'd love to learn French. It's such an elegant and soothing language!",
+        "description":"Based on my favourite city, I think it's no surprise that I'd love to learn French. It's such an elegant and soothing language! Below I have a few cute French phrases to get a feel of what i mean ; ).",
         "photo":"./kiss print beige.png"
     },
     
@@ -20,7 +22,7 @@
             "englishPhrase1" : "You're gorgeous",
             "foreignPhrase1" : "Vous etes magnifique",
              "englishPhrase2" : "I love croissants!",
-            "foreignPhrase2" : "j'adore les croissants"
+            "foreignPhrase2" : "J'adore les croissants"
         },
     
 

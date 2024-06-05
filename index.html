@@ -20,37 +20,51 @@
 </head>
 
 <div class="container">
+    <div class="city">
+
+    
 
     <body class="card-panel pink lighten-4">
 
+      
         <div class="card-panel">
             <span class="grey-text text-darken-2">
-                <h1 class="center-align" class="card-image hoverable">{{user.fullName}}
+                <h1 class="center-align" class="card-image hoverable"><img src="{{user.photo2}}" width="100px">{{user.fullName}} <img src="{{user.photo2}}" width="100px"></h1>
+                </span>
         </div>
-        </h1>
         <div class="row">
-            <img src="{{user.photo1}}" width="300px" class="responsive-img" alt="" srcset="" class="col s4">
-
-
-
+            <div class="col s12">
+            <span class="grey-text text-darken-2">
+            <div class="col s6">
+            <img src="{{user.photo1}}" width="300px" class="responsive-img" alt="" srcset="" ></div>
+            <div class="col s6">
+             <h3 class="quote" class="col s6">"{{user.quote}}"</h3></div>
+                 </span> 
+              </div>
+            </div>
+        </div>
             <!--div class="col s12">This div is 12-columns wide on all screen sizes</div>
                 <div class="col s6"-->
             <div class="row">
-                <span class="grey-text text-darken-2">
+                <div class="city">
+                    <span class="grey-text text-darken-2">
                     <h2>Which City? </h2>
-                    <h3>{{city.name}}</h3>
+                    <h3 >{{city.name}}</h3>
                     <img src="{{city.photo}}" width="300px" class="responsive-img" alt="" srcset="" class="col s6">
                     <h6 class="col s6">{{city.description}}</h6>
                 </span>
             </div>
-        </div>
+                </div>
+                
+        
 
 
 
         <div class="col s6">
             <span class="grey-text text-darken-2">
                 <div class="row">
-                    <h2>Foreign Language <img src="{{foreignLanguage.photo}}" class="responsive-img" class="col s4"
+                    <div class="city">
+<h2>Foreign Language <img src="{{foreignLanguage.photo}}" class="responsive-img" class="col s4"
                             width="200px"></h2>
                     <h6>{{foreignLanguage.description}}</h6>
                     <table class="responsive-table">
@@ -77,7 +91,9 @@
                         </tbody>
                     </table>
                 </div>
+            </span>
         </div>
+    </div>
 
 
 
@@ -86,6 +102,8 @@
         <hr>
 
         <div class="row">
+            <span class="grey-text text-darken-2">
+                <div class="city">
             <h2>My Favourite Subjects</h2>
             {{#each favouriteSubjects }}
             <div class="col l12 s12">
@@ -101,12 +119,14 @@
             {{/each}}
 
 
-
+            </span>
         </div>
+    </div>
 
 
 
 
-
+                    </div>
+                    
 
     </body>
