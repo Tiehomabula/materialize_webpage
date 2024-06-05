@@ -3,7 +3,8 @@
         "fullName": "Tieho N. Mabula",
         "photo1": "./Tieho God's window.jpg",
         "photo2":"./pink bow.jpg",
-        "quote":"She remembered who she was and the game changed. - Lalah Delia"
+        "quote":"She remembered who she was and the game changed.",
+        "author": "Lalah Delia"
     },
     "city" : {
         "name" : "P A R I S",
